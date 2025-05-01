@@ -1,4 +1,6 @@
 # NumPy Program: Column-wise Sorting of a 2D Array
+## NAME: GOKUL SHARAN R
+## REG NO: 212223040052
 
 ## 🎯 Aim
 To write a **NumPy** program that sorts the elements in each column of a given 2D array in ascending order.
@@ -12,8 +14,22 @@ To write a **NumPy** program that sorts the elements in each column of a given 2
 5. **Display Output**: Print the original array and the column-wise sorted array.
 
 ## 🧾 Program
-Add code here
+```
+import numpy as np
+a=np.array(eval(input()))
+print("Given array")
+print(end=" ")
+print(a)
+print()
+print(np.sort(a,axis=0))
+```
+
 
 ## Output
+![image](https://github.com/user-attachments/assets/c2151885-0244-4e35-8754-467290639ddb)
+
 
 ## Result
+Thus the python program for sorting each column in numpy has been implemented and executed
+successfully.
+
